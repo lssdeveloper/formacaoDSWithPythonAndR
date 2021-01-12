@@ -1,0 +1,41 @@
+```{r}
+delta = 8
+class(delta)
+```
+```{r}
+delta = 8L
+class(delta)
+```
+outros tipos
+```{r}
+logico = TRUE
+logico = F
+caractere = "Texto"
+caractere = 'texto'
+
+print(logico)
+print(caractere)
+```
+operações matemáticas
+```{r}
+c = 2
+d = 4
+(c + d) * d
+e = (c + d) * d
+print(e)
+```
+teste lógico
+```{r}
+a = 1
+b = 2
+a < b
+a == b
+a > b
+a >= b
+a <= b
+```
+raiz quadrada
+```{r}
+sqrt(2500)
+```
+
