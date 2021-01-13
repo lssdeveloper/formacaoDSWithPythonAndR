@@ -1,0 +1,25 @@
+---
+title: Importando dados
+
+---
+```{r}
+#install.packages("xlsx")
+library(xlsx)
+```
+Texto
+```{r}
+#texto
+x = read.csv(file.choose(), header = TRUE, sep = ",")
+x
+#o arquivo deve estar no mesmo diretório do arquivo .Rmd
+# se não estiver deverá informar o caminho completo
+x = read.csv("Credit.csv", header = TRUE, sep = ",")
+x
+```
+Excel
+```{r}
+#o arquivo neste caso deve estar no mesmo dietório .Rmd
+dados = read.xlsx("Credit.xlsx", sheetIndex = 1)
+dados
+```
+

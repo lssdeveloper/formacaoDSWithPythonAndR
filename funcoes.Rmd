@@ -1,0 +1,57 @@
+---
+title: "Formação Cientista de Dados"
+output: Funções
+---
+
+```{r}
+getwd()
+#sem parenteses
+sd
+head(x=iris, n=2)
+head(iris)
+head(iris,2)
+head(n=22)
+```
+
+Principais Funções
+
+```{r}
+esoph
+#default 6 primeiras linhas
+head(esoph)
+#default 6 últimas linhas
+tail(esoph)
+#10 linhas
+head(esoph, n=10)
+```
+Dimensões
+```{r}
+dim(esoph)
+# 88 linhas e 5 colunas
+# [1] 88 5
+```
+Comprimento
+```{r}
+#se usar com objeto bidimensional vai retornar colunas
+length(islands)
+#um vetor com 48 posições
+#[1] 48
+```
+Nome de Colunas
+```{r}
+colnames(esoph)
+```
+Nome de linhas
+```{r}
+rownames(esoph)
+```
+Resumo
+```{r}
+summary(esoph)
+```
+Escolher Arquivo
+```{r}
+x = file.choose()
+x
+```
+
